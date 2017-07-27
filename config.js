@@ -46,7 +46,7 @@ module.exports = {
 	// If true, it will delete any message that is not a command from the master channel.
 	// Leave this on to keep your master channel tidy.
 	// This also requires the "manage messages" permission
-	disallow_talking: true
+	disallow_talking: false
 };
 
 // "Add to server" link:
