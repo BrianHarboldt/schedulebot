@@ -1,48 +1,54 @@
 {
-	"name":"schedulebot",
-	"version":"1.0.2",
-	"description":"A Discord bot that makes scheduling easy",
-	"homepage":"https://github.com/mellamopablo/schedulebot#readme",
-	"author":"Pablo Rodríguez <pabloviolin8@gmail.com> (https://github.com/MeLlamoPablo)",
-	"files":[
+	"name": "schedulebot",
+	"version": "1.0.2",
+	"description": "A Discord bot for room management",
+	"homepage": "https://github.com/brianharboldt/schedulebot#readme",
+	"author": "",
+	"files": [
 		"lib"
 	],
-	"main":"lib/index.js",
-	"keywords":[
-		"discord bot",
-		"scheduling",
-		"schedule"
+	"main": "lib/index.js",
+	"keywords": [
+		"discord bot"
 	],
-	"scripts":{
-		"bot":"node ./lib/index.js",
-		"setup":"node ./setup.js",
-    "update":"node ./scripts/update.js",
-		"prepublish":"gulp nsp",
-		"postinstall":"node ./postinstall.js"
+	"scripts": {
+		"bot": "node ./lib/index.js",
+		"setup": "node ./setup.js",
+		"update": "node ./scripts/update.js",
+		"prepublish": "gulp nsp",
+		"postinstall": "node ./postinstall.js"
 	},
-	"devDependencies":{
-		"gulp":"^3.9.0",
-		"gulp-plumber":"^1.0.0",
-		"gulp-nsp":"^2.1.0"
+	"devDependencies": {
+		"gulp": "^3.9.0",
+		"gulp-plumber": "^1.0.0",
+		"gulp-nsp": "^2.1.0"
 	},
-	"repository":{
-		"type":"git",
-		"url":"git+https://github.com/mellamopablo/schedulebot.git"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brianharboldt/schedulebot.git"
 	},
-	"license":"Apache-2.0",
-	"dependencies":{
-		"clapp":"^1.1.0",
-		"discord.js":"^10.0.1",
-		"inquirer":"^1.2.2",
-		"knex":"^0.12.6",
-		"moment":"^2.15.1",
-		"moment-timezone":"^0.5.6",
-		"pg":"^6.1.0"
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@types/node": "^8.0.17",
+		"clapp": "^1.1.0",
+		"discord.js": "^11.1.0",
+		"inquirer": "^1.2.2",
+		"knex": "^0.12.6",
+		"moment": "^2.15.1",
+		"moment-timezone": "^0.5.6",
+		"opusscript": "0.0.3",
+		"pg": "^6.1.0"
 	},
-	"bugs":{
-		"url":"https://github.com/mellamopablo/schedulebot/issues"
+	"bugs": {
+		"url": "https://github.com/brianharboldt/schedulebot/issues"
 	},
-	"engines":{
+	"engines": {
 		"node": "6.3.1"
+	},
+	"typeAcquisition": {
+		"include": [
+			"clapp",
+			"discord.js"
+		]
 	}
 }

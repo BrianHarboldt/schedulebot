@@ -1,0 +1,67 @@
+[ MessageEmbed {
+    message:
+       channel: [Object],
+     Message {
+       id: '340119436889686017',
+       content: '',
+       author: [Object],
+       type: 'DEFAULT',
+       member: [Object],
+       pinned: false,
+       tts: false,
+       nonce: null,
+       system: false,
+       embeds: [Circular],
+       attachments: [Object],
+       createdTimestamp: 1501161192868,
+       editedTimestamp: null,
+       mentions: [Object],
+       _edits: [] },
+    title: '**A wild Squirtle (7) has appeared!**',
+    type: 'rich',
+    description: 'Click above to view in the wild.\n\n*Remaining: 8 min 28 sec*',
+    url: 'https://PokeFetch.com/#32.779288577953196,-96.79905671213879',
+    thumbnail:
+     MessageEmbedThumbnail {
+       embed: [Circular],
+       url: 'https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/7.png',
+       proxyURL: 'https://images-ext-2.discordapp.net/external/jl4fP86IBW0cj5vNpbZBk3nEgvgjOGexL5LmmdoYwSE/https/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/7.png',
+       height: 0,
+       width: 0 },
+    author: null,
+    provider: null } ]
+
+
+
+[ MessageEmbed {
+    message:
+     Message {
+       channel: [Object],
+       id: '340121500877324288',
+       type: 'DEFAULT',
+       content: '',
+       author: [Object],
+       member: [Object],
+       pinned: false,
+       tts: false,
+       nonce: null,
+       system: false,
+       embeds: [Circular],
+       attachments: [Object],
+       createdTimestamp: 1501161684961,
+       editedTimestamp: null,
+       mentions: [Object],
+       _edits: [] },
+    title: 'Level 3 Raid has started!',
+    description: '**One Community Church.**\nJolteon\nCP: 19883.\n*Raid Ending: 1 hours 48 min 8 sec*',
+    type: 'rich',
+    url: 'https://GymHuntr.com/#33.010702,-96.991658',
+     MessageEmbedThumbnail {
+    thumbnail:
+       embed: [Circular],
+       url: 'https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/135.png',
+       proxyURL: 'https://images-ext-2.discordapp.net/external/DD5opdiYq4HP9de2ISvc1GXrztOXBcBUfsmoNp0xHUI/https/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/135.png',
+       height: 0,
+       width: 0 },
+    author: null,
+    provider: null } ]

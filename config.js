@@ -7,7 +7,7 @@ module.exports = {
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
 	//      whereas "ScheduleBot foo" will do nothing at all.
-	prefix:  "<@RoomBot>", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
+	prefix:  "<@339976796445474817>", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
 
 	// This is a readable version of the prefix. Generally, this is the same as prefix, but if
 	// you set prefix to be in the form of "<@YOUR_BOT_USER_ID>", you'd need to set readable_prefix
@@ -17,16 +17,15 @@ module.exports = {
 	// ScheduleBot's case), the string "<@YOUR_BOT_USER_ID>" doesn't get parsed as a mention.
 	// So in order not to mislead the user, we have a separate option for a readable version of
 	// our prefix.
-	readable_prefix: "@YOUR_BOT_USER_NAME",
+	readable_prefix: "@RoomBot",
 
 	// Admin app settings
 	admin_app: {
 		desc: "RoomBot admin commands",
-		prefix: "RoomBot-admin"
+		prefix: "!<@339976796445474817>"
 	},
 
-	// The master channel
-	// The bot will announce the events to this channel. It won't listen to other channels.
+	// TODO: Remove
 	master_channel: "poke-bot",
 
 	// Events are considered "happening" for a margin of time, where users can see that the event
