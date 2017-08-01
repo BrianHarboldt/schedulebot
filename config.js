@@ -22,7 +22,8 @@ module.exports = {
 	// Admin app settings
 	admin_app: {
 		desc: "RoomBot admin commands",
-		prefix: "~"
+		prefix: "~",
+		role: "mod"
 	},
 
 	// TODO: Remove
