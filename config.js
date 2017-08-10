@@ -26,6 +26,9 @@ module.exports = {
 		role: "Moderator"
 	},
 
+	//Amount of time required for a channel to be automatically spawned
+	auto_create_channel_min_time: 20,
+
 	// TODO: Remove
 	master_channel: "poke-bot",
 
