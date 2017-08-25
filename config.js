@@ -1,5 +1,10 @@
-module.exports = {
+/*jslint node: true */
+/*jshint esversion: 6 */
+"use strict";
 
+const constants = require('./constants.js');
+
+module.exports = {
 	// Your bot name. Typically, this is your bot's username without the discriminator.
 	// i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
 	name: "RoomBot",
@@ -28,6 +33,14 @@ module.exports = {
 
 	//Amount of time required for a channel to be automatically spawned
 	auto_create_channel_min_time: 20,
+
+	//[{type:config.MessagePart,element:config.ParserPart,value:string}]
+	auto_create_channel_parser: [
+		{type:constants.MessagePart.Title, element:constants.ParserPart.Title, value:/against\s(.+)!/i},
+		{type:constants.MessagePart.Title, element:constants.ParserPart.Description, value:/(?:\*{0,2}(?:LOCATION|ADDRESS):\*{0,2}\s((?!unknown).+))/i},
+		{type:constants.MessagePart.Time, element:constants.ParserPart.Description, value:/(\d+)\s*(?:hours|h)\s*(\d+)\s*(?:min|m)\s*(?:(\d+)\s*(?:sec|s))?/i},
+		{type:constants.MessagePart.Coords, element:constants.ParserPart.Url, value:/(-?\d+\.?\d*,-?\d+\.?\d*)/},
+	],
 
 	// TODO: Remove
 	master_channel: "poke-bot",
