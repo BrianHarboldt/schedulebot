@@ -42,6 +42,9 @@ module.exports = {
 		{type:constants.MessagePart.Coords, element:constants.ParserPart.Url, value:/(-?\d+\.?\d*,-?\d+\.?\d*)/},
 	],
 
+	//Amount of time allowed to create a channel for
+	create_channel_max_time: 120,
+
 	// TODO: Remove
 	master_channel: "poke-bot",
 
