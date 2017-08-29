@@ -38,7 +38,7 @@ module.exports = {
 	auto_create_channel_parser: [
 		{type:constants.MessagePart.Title, element:constants.ParserPart.Title, value:/against\s(.+)!/i},
 		{type:constants.MessagePart.Title, element:constants.ParserPart.Description, value:/(?:\*{0,2}(?:LOCATION|ADDRESS):\*{0,2}\s((?!unknown).+))/i},
-		{type:constants.MessagePart.Time, element:constants.ParserPart.Description, value:/(?:(\d+)\s{0,1}(?:hours?|h))?\s*(?:(\d+)\s{0,1}(?:min|m))\s*(?:(\d+)\s{0,1}(?:secs?|s))?/i},
+		{type:constants.MessagePart.Time, element:constants.ParserPart.Description, value:/(?:(\d+)\s{0,1}(?:hours?|h))?\s*(?:(\d+)\s{0,1}(?:min|m))\s*(?:(\d+)\s{0,1}(?:secs?|s))?/},
 		{type:constants.MessagePart.Coords, element:constants.ParserPart.Url, value:/(-?\d+\.?\d*,-?\d+\.?\d*)/},
 	],
 
