@@ -45,6 +45,9 @@ module.exports = {
 	//Amount of time allowed to create a channel for
 	create_channel_max_time: 120,
 
+	//channel used as default for bot created channels to spawn under
+	category_channel: "raids",
+
 	// TODO: Remove
 	master_channel: "poke-bot",
 
