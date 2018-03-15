@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"gulp": "^3.9.0",
 		"gulp-plumber": "^1.0.0",
-		"gulp-nsp": "^2.1.0"
+		"gulp-nsp": "^3.0.1"
 	},
 	"repository": {
 		"type": "git",
@@ -29,15 +29,16 @@
 	},
 	"license": "Apache-2.0",
 	"dependencies": {
-		"@types/node": "^8.0.17",
+		"@types/node": "^9.4.7",
 		"clapp": "^1.1.0",
-		"discord.js": "^11.3.0",
-		"inquirer": "^1.2.2",
-		"knex": "^0.12.6",
+		"discord.js": "^11.3.2",
+		"pinkie-promise": "^2.0.1",
+		"inquirer": "^5.1.0",
+		"knex": "^0.14.4",
 		"moment": "^2.15.1",
 		"moment-timezone": "^0.5.6",
-		"opusscript": "0.0.3",
-		"pg": "^6.1.0"
+		"opusscript": "0.0.6",
+		"pg": "^7.4.1"
 	},
 	"bugs": {
 		"url": "https://github.com/brianharboldt/schedulebot/issues"
