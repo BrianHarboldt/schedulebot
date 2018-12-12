@@ -28,7 +28,7 @@ module.exports = {
 	admin_app: {
 		desc: "RoomBot admin commands",
 		prefix: "~",
-		role: "Moderator"
+		roles: "Moderator;RaidLeader"
 	},
 
 	//Amount of time required for a channel to be automatically spawned
