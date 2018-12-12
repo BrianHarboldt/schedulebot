@@ -15,7 +15,7 @@
 		"bot": "node ./lib/index.js",
 		"setup": "node ./setup.js",
 		"update": "node ./scripts/update.js",
-		"prepublish": "gulp nsp",
+		"prepublish": "",
 		"postinstall": "node ./postinstall.js"
 	},
 	"devDependencies": {
